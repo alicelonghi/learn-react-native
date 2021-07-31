@@ -9,7 +9,8 @@ export default function Comp() {
 }
 
 function Comp1() {
-  return <Text style={Estilo.fontG}>Comp #01</Text>
+  return <Text style={Estilo.fontG}>Comp #01
+  </Text>
 }
 
 function Comp2() {

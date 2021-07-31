@@ -1,26 +1,26 @@
-import React from "react"
-import Primeiro from "./components/Primeiro"
-import X, { Comp1, Comp2 } from "./components/Multi.js"
-import { View, StyleSheet} from 'react-native'
+import React from 'react';
+import Primeiro from './components/Primeiro';
+import X, {Comp1, Comp2} from './components/Multi.js';
+import {View, StyleSheet} from 'react-native';
+import MinMax from './components/MinMax';
 
 export default () => (
-    <View style={style.App}>
-        <Primeiro/>
+  <View style={style.App}>
+    {/* <Primeiro/>
         <Comp1/>
         <Comp2 />
-        <X/>
-    </View> 
-)
+        <X/> */}
+    <MinMax min={3} max={20} />
+  </View>
+);
 
 // o StyleSheet ajuda a criar um estilo
 const style = StyleSheet.create({
-    App: {
-        flexGrow: 1,
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundColor: '#fff'
-    }
-})
-
-
-
+  App: {
+    padding: 20,
+    flexGrow: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#fff',
+  },
+});
