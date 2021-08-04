@@ -1,10 +1,11 @@
 import React from 'react';
-import Primeiro from './components/Primeiro';
-import X, {Comp1, Comp2} from './components/Multi.js';
 import {View, StyleSheet} from 'react-native';
-import MinMax from './components/MinMax';
-import Aleatorio from './components/Aleatorio';
-import Titulo from './components/Titulo';
+// import Primeiro from './components/Primeiro';
+// import X, {Comp1, Comp2} from './components/Multi.js';
+// import MinMax from './components/MinMax';
+// import Aleatorio from './components/Aleatorio';
+// import Titulo from './components/Titulo';
+import Button from './components/Button';
 
 export default () => (
   <View style={style.App}>
@@ -14,7 +15,9 @@ export default () => (
         <X/> */}
     {/* <MinMax min={3} max={20} />
     <Aleatorio min={6} max={9} /> */}
-    <Titulo principal="Título principal" secundario="subtitulo" />
+    {/* <Titulo principal="Título principal" secundario="subtitulo" />
+     */}
+    <Button />
   </View>
 );
 
