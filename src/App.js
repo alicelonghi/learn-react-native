@@ -1,5 +1,7 @@
 import React from 'react';
 import {StyleSheet, SafeAreaView} from 'react-native';
+import Pai from './components/relacao/Pai';
+import Filho from './components/relacao/Filho';
 // import Primeiro from './components/Primeiro';
 // import X, {Comp1, Comp2} from './components/Multi.js';
 // import MinMax from './components/MinMax';
@@ -11,7 +13,8 @@ import {StyleSheet, SafeAreaView} from 'react-native';
 //import Pai from './components/indireta/Pai';
 //import ContadorV2 from './components/contador/ContadorV2';
 //import Diferenciar from './components/Diferenciar';
-import ParImpar from './components/ParImpar';
+//import ParImpar from './components/ParImpar';
+
 export default () => (
   <SafeAreaView style={style.App}>
     {/* <Primeiro/>
@@ -28,7 +31,11 @@ export default () => (
     {/* <Pai /> */}
     {/* <ContadorV2 /> */}
     {/* <Diferenciar /> */}
-    <ParImpar num={3} />
+    {/* <ParImpar num={3} /> */}
+    <Pai>
+      <Filho nome="Teste" sobrenome="Teste sobrenome" />
+      <Filho nome="Teste 2" sobrenome="Teste 2 sobrenome" />
+    </Pai>
   </SafeAreaView>
 );
 
