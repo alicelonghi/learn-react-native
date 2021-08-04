@@ -7,7 +7,8 @@ import {View, StyleSheet} from 'react-native';
 // import Titulo from './components/Titulo';
 // import Button from './components/Button';
 //import Contador from './components/Contador';
-import Pai from './components/direta/Pai';
+//import Pai from './components/direta/Pai';
+import Pai from './components/indireta/Pai';
 export default () => (
   <View style={style.App}>
     {/* <Primeiro/>
@@ -20,6 +21,7 @@ export default () => (
      */}
     {/* <Button /> */}
     {/* <Contador inicial={10} /> */}
+    {/* <Pai /> */}
     <Pai />
   </View>
 );
