@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, StyleSheet} from 'react-native';
+import {StyleSheet, SafeAreaView} from 'react-native';
 // import Primeiro from './components/Primeiro';
 // import X, {Comp1, Comp2} from './components/Multi.js';
 // import MinMax from './components/MinMax';
@@ -10,9 +10,10 @@ import {View, StyleSheet} from 'react-native';
 //import Pai from './components/direta/Pai';
 //import Pai from './components/indireta/Pai';
 //import ContadorV2 from './components/contador/ContadorV2';
-import Diferenciar from './components/Diferenciar';
+//import Diferenciar from './components/Diferenciar';
+import ParImpar from './components/ParImpar';
 export default () => (
-  <View style={style.App}>
+  <SafeAreaView style={style.App}>
     {/* <Primeiro/>
         <Comp1/>
         <Comp2 />
@@ -26,8 +27,9 @@ export default () => (
     {/* <Pai /> */}
     {/* <Pai /> */}
     {/* <ContadorV2 /> */}
-    <Diferenciar />
-  </View>
+    {/* <Diferenciar /> */}
+    <ParImpar num={3} />
+  </SafeAreaView>
 );
 
 // o StyleSheet ajuda a criar um estilo
