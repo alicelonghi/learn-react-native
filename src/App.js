@@ -9,7 +9,8 @@ import {View, StyleSheet} from 'react-native';
 //import Contador from './components/Contador';
 //import Pai from './components/direta/Pai';
 //import Pai from './components/indireta/Pai';
-import ContadorV2 from './components/contador/ContadorV2';
+//import ContadorV2 from './components/contador/ContadorV2';
+import Diferenciar from './components/Diferenciar';
 export default () => (
   <View style={style.App}>
     {/* <Primeiro/>
@@ -24,7 +25,8 @@ export default () => (
     {/* <Contador inicial={10} /> */}
     {/* <Pai /> */}
     {/* <Pai /> */}
-    <ContadorV2 />
+    {/* <ContadorV2 /> */}
+    <Diferenciar />
   </View>
 );
 
