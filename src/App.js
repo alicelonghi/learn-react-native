@@ -4,6 +4,7 @@ import X, {Comp1, Comp2} from './components/Multi.js';
 import {View, StyleSheet} from 'react-native';
 import MinMax from './components/MinMax';
 import Aleatorio from './components/Aleatorio';
+import Titulo from './components/Titulo';
 
 export default () => (
   <View style={style.App}>
@@ -11,8 +12,9 @@ export default () => (
         <Comp1/>
         <Comp2 />
         <X/> */}
-    <MinMax min={3} max={20} />
-    <Aleatorio min={6} max={9} />
+    {/* <MinMax min={3} max={20} />
+    <Aleatorio min={6} max={9} /> */}
+    <Titulo principal="Título principal" secundario="subtitulo" />
   </View>
 );
 
