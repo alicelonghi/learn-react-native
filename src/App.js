@@ -5,8 +5,8 @@ import {View, StyleSheet} from 'react-native';
 // import MinMax from './components/MinMax';
 // import Aleatorio from './components/Aleatorio';
 // import Titulo from './components/Titulo';
-import Button from './components/Button';
-
+// import Button from './components/Button';
+import Contador from './components/Contador';
 export default () => (
   <View style={style.App}>
     {/* <Primeiro/>
@@ -17,7 +17,8 @@ export default () => (
     <Aleatorio min={6} max={9} /> */}
     {/* <Titulo principal="Título principal" secundario="subtitulo" />
      */}
-    <Button />
+    {/* <Button /> */}
+    <Contador inicial={10} />
   </View>
 );
 
